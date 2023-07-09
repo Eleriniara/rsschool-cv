@@ -1,1 +1,107 @@
-html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <main class="main-container">
+        <section class="profile" id="contacts">
+            <div class="profile__container">
+                <div class="profile__info">
+                    <h1 class="profile__title">Victoria Sokolova</h1>
+                    <div class="profile__contact contact">
+                        <h2 class="proffile__title contact__title">Contacts</h2>
+                        <ul class="contact__list">
+                            <li class="contact__item contact__item--phone">+79377000689</li>
+                            <li class="contact__item contact__item--email">eleriniara@gmail.com</li>
+                            <li class="contact__item contact__item--telegramm">@Eleriniara</li>
+                        </ul>
+                    </div>
+                    <div class="profile__summary summary" id="summary">
+                        <h2 class="summary__title">Summary</h2>
+                        <p class="summary__text">I am 32 and I am a psychologist by education, and I like to learn something new.</p>
+                    </div>
+                </div>
+                <img class="profile__avatar" src="./assets/img/avatar.jpeg" alt="avatar">
+            </div>
+        </section>
+        <div class="container">
+            <section class="section skill" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <ul class="section__list">
+                    <li class="section__item">HTML</li>
+                    <li class="section__item">CSS</li>
+                    <li class="section__item">JavaScript (a little)</li>
+                    <li class="section__item">Git</li>
+                    <li class="section__item">Linux(Ubuntu)</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section__title">Code Example</h2>
+                <pre>
+                    <code>
+                        const getRandomNumber = (min, max) => {
+                            if (min &lt; 0 || max &lt; 0) {
+                              return NaN;
+                            }
+                          
+                            const result = min + Math.random() * (max + 1 - min);
+                          
+                            return Math.floor(result);
+                          }
+                    </code>
+                </pre>
+            </section>
+            <section class="section education" id="education">
+                <h2 class="section__title">Education</h2>
+                <ul class="section__list">
+                    <li class="section__item">
+                        Modern University for the Humanities - Psyhologist
+                    </li>
+                    <li class="section__item">
+                        HTML Academy - HTML and CSS. Professional Website Coding
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section__title">Languages</h2>
+                <ul class="section__list">
+                    <li class="section__item">Russian</li>
+                    <li class="section__item">Spanish (A1)</li>
+                    <li class="section__item">English (A1)</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <a class="footer__link" href="github.com/Eleriniara">
+                <img src="./assets/img/github-logo_icon-icons.com_73546.svg" height="42" alt="My GitHub">
+            </a>
+            <p class="footer__year">2023</p>
+            <a class="footer__link" href="https://rs.school/js-stage0/">
+                <img src="./assets/img/rs_school_js.svg" width="86" height="42" alt="RS School">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
