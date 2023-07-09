@@ -37,6 +37,6 @@ const getRandomNumber = (min, max) => {
 
 ## Languages
 * Russian
-* Spanish
+* Spanish (A1)
 * English (A1)
 
