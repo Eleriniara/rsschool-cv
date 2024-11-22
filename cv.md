@@ -7,7 +7,7 @@
 - GitHub: github.com/Eleriniara
 
 ## About me
-I am 32 and I am a psychologist by education, and I like to learn something new.
+I am 34 and I am a psychologist by education, and I like to learn something new.
 
 ## Skills
 - HTML
